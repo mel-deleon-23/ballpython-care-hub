@@ -11,35 +11,35 @@ const Resources = () => {
             </div>
             <div className='resource-card-container'>
                 <div className='resource-card'>
-                    <img src="src/images/banana-bp.jpg" alt="" />
+                    <img src="/images/banana-bp.jpg" alt="" />
                     <button className='btn'>Enclosures</button>
                 </div>
                 <div className='resource-card'>
-                    <img src="src/images/ballpython-in-plant.jpg" alt="" />
+                    <img src="/images/ballpython-in-plant.jpg" alt="" />
                     <button className='btn'>Feeding</button>
                 </div>
                 <div className='resource-card'>
-                    <img src="src/images/ballpython-scoping.jpg" alt="" />
+                    <img src="/images/ballpython-scoping.jpg" alt="" />
                     <button className='btn'>Heating</button>
                 </div>
                 <div className='resource-card'>
-                    <img src="src/images/banana-bp.jpg" alt="" />
+                    <img src="/images/banana-bp.jpg" alt="" />
                     <button className='btn'>Substrates</button>
                 </div>
                 <div className='resource-card'>
-                    <img src="src/images/banana-bp.jpg" alt="" />
+                    <img src="/images/banana-bp.jpg" alt="" />
                     <button className='btn'>Enclosures</button>
                 </div>
                 <div className='resource-card'>
-                    <img src="src/images/ballpython-in-plant.jpg" alt="" />
+                    <img src="/images/ballpython-in-plant.jpg" alt="" />
                     <button className='btn'>Feeding</button>
                 </div>
                 <div className='resource-card'>
-                    <img src="src/images/ballpython-scoping.jpg" alt="" />
+                    <img src="/images/ballpython-scoping.jpg" alt="" />
                     <button className='btn'>Heating</button>
                 </div>
                 <div className='resource-card'>
-                    <img src="src/images/banana-bp.jpg" alt="" />
+                    <img src="/images/banana-bp.jpg" alt="" />
                     <button className='btn'>Substrates</button>
                 </div>
           </div>

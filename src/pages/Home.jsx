@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <div className='home-container'>
           <div className='home-image'>
-            <img src="src/images/ball-python-on-branch.jpg" alt="Banana Ball Python morph"
+            <img src="/images/ball-python-on-branch.jpg" alt="Banana Ball Python morph"
             className='header-image' />
           </div>
           {/* Intro Text */}
@@ -23,15 +23,15 @@ const Home = () => {
           {/* Card Section */}
           <div className='card-container'>
             <div className='card'>
-                <img src="src/images/banana-bp.jpg" alt="" />
+                <img src="/images/banana-bp.jpg" alt="" />
                 <button className='btn'>Care Guides</button>
             </div>
             <div className='card'>
-                <img src="src/images/ballpython-in-plant.jpg" alt="" />
+                <img src="/images/ballpython-in-plant.jpg" alt="" />
                 <button className='btn'>Resources</button>
             </div>
             <div className='card'>
-                <img src="src/images/ballpython-scoping.jpg" alt="" />
+                <img src="/images/ballpython-scoping.jpg" alt="" />
                 <button className='btn'>Ball Pythons</button>
             </div>
           </div>
