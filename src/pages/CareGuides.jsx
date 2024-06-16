@@ -16,20 +16,12 @@ const CareGuides = () => {
             </div>
             <div className='care-guide-card-container'>
                 <div className='care-guide-card'>
-                    <img src="/images/banana-bp.jpg" alt="" />
-                    <button className='btn'>Enclosures</button>
+                    <img src="/images/ballpython-first-time-owners.jpg" alt="" />
+                    <button className='btn'>First Time Owners</button>
                 </div>
                 <div className='care-guide-card'>
-                    <img src="/images/ballpython-in-plant.jpg" alt="" />
-                    <button className='btn'>Feeding</button>
-                </div>
-                <div className='care-guide-card'>
-                    <img src="/images/ballpython-scoping.jpg" alt="" />
-                    <button className='btn'>Heating</button>
-                </div>
-                <div className='care-guide-card'>
-                    <img src="/images/banana-bp.jpg" alt="" />
-                    <button className='btn'>Substrates</button>
+                    <img src="/images/ballpython-experienced-owners.jpg" alt="" />
+                    <button className='btn'>Experienced Owners</button>
                 </div>
             </div>
         </div>

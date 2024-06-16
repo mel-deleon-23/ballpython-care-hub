@@ -28,20 +28,20 @@ const Resources = () => {
                 </div>
                 <div className='resource-card'>
                     <img src="/images/banana-bp.jpg" alt="" />
-                    <button className='btn'>Enclosures</button>
+                    <button className='btn'>Shedding</button>
                 </div>
                 <div className='resource-card'>
                     <img src="/images/ballpython-in-plant.jpg" alt="" />
-                    <button className='btn'>Feeding</button>
+                    <button className='btn'>Breeding</button>
                 </div>
-                <div className='resource-card'>
+                {/* <div className='resource-card'>
                     <img src="/images/ballpython-scoping.jpg" alt="" />
                     <button className='btn'>Heating</button>
                 </div>
                 <div className='resource-card'>
                     <img src="/images/banana-bp.jpg" alt="" />
                     <button className='btn'>Substrates</button>
-                </div>
+                </div> */}
           </div>
         </div>
     );

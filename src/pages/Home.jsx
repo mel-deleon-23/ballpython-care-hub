@@ -1,16 +1,32 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../css/styles.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Home = () => {
+    const [email, setEmail] = useState('');
+    const [thankYouMessage, setThankYouMessage] = useState(false);
+
+    const handleEmailChange = (e) => {
+        setEmail(e.target.value);
+    };
+
+    const handleFormSubmit = (e) => {
+        e.preventDefault();
+        // Handle form submission, such as sending the email to your server or an API.
+        console.log('Email submitted:', email);
+        setThankYouMessage(true);
+        setEmail(''); // Clear the input after submission
+    };
+
     return (
         <div className='home-container'>
-          <div className='home-image'>
+          <section className='home-image'>
             <img src="/images/ball-python-on-branch.jpg" alt="Banana Ball Python morph"
             className='header-image' />
-          </div>
+          </section>
           {/* Intro Text */}
           <div className='home-introduction'>
+          <h2 className='intro-heading'>Ball Python Care Hub</h2>
             <p className='intro-text'>
               Welcome to the Ball Python Care Hub! Your ultimate online resource for everything related to ball pythons! 
               Whether you're a seasoned enthusiast or just starting your journey with these fascinating reptiles, 
@@ -21,20 +37,38 @@ const Home = () => {
             </p>
           </div>
           {/* Card Section */}
-          <div className='card-container'>
+          <section className='card-container'>
             <div className='card'>
                 <img src="/images/banana-bp.jpg" alt="" />
-                <button className='btn'>Care Guides</button>
+                <a href='/careguides'><button className='btn'>Care Guides</button></a>
             </div>
             <div className='card'>
                 <img src="/images/ballpython-in-plant.jpg" alt="" />
-                <button className='btn'>Resources</button>
+                <a href='/resources'><button className='btn'>Resources</button></a>
             </div>
             <div className='card'>
                 <img src="/images/ballpython-scoping.jpg" alt="" />
-                <button className='btn'>Ball Pythons</button>
+                <a href='/ballpythons'><button className='btn'>Ball Pythons</button></a>
             </div>
-          </div>
+          </section>
+          {/* Newsletter Sign Up Section */}
+          <section className='email-signup-container'>
+            <h2 className='email-heading'>Subscribe to our Newsletter</h2>
+            <form onSubmit={handleFormSubmit} className='email-signup-form'>
+                <div className="form-group d-flex">
+                    <input 
+                        type="email" 
+                        className="form-control" 
+                        placeholder="Enter your email" 
+                        value={email}
+                        onChange={handleEmailChange}
+                        required
+                    />
+                    <button type="submit" className="btn">Subscribe</button>
+                </div>
+            </form>
+            {thankYouMessage && <p className='thank-you-message'>Thank you for subscribing to our newsletter!</p>}
+          </section>
         </div>
     );
 }
