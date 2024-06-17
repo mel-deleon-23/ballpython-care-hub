@@ -18,11 +18,11 @@ const CareGuides = () => {
             <div className='care-guide-card-container'>
                 <div className='care-guide-card'>
                     <img src="/images/ballpython-first-time-owners.jpg" alt="" />
-                    <button className='btn'>First Time Owners</button>
+                    <a href='/first-time-owners'><button className='btn'>First Time Owners</button></a>
                 </div>
                 <div className='care-guide-card'>
                     <img src="/images/ballpython-experienced-owners.jpg" alt="" />
-                    <button className='btn'>Experienced Owners</button>
+                    <a href='/experienced-owners'><button className='btn'>Experienced Owners</button></a>
                 </div>
             </div>
         </div>

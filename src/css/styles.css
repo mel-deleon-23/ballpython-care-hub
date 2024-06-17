@@ -322,18 +322,28 @@
   /* About Us */
   .about-container {
     position: relative;
-    /* padding-top: 50px; */
+    padding: 100px;
   }
   
   .about-heading h3{
     font-weight: 700;
     text-align: center;
     color: #228B22;
-    /* padding-top: 100px; */
+    padding-top: 100px;
+    padding-bottom: 50px;
   }
 
   .about-introduction {
     padding-bottom: 50px;
+  }
+
+  .about-text {
+    /* display: flex;
+    align-items: center; */
+    color: #36454F;
+    font-size: 18px;
+    padding: 0 50px;
+    text-align: center;
   }
 
 

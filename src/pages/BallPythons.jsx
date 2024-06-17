@@ -57,6 +57,20 @@ const BallPythons = () => {
             where it lives in grasslands, shrublands and open forests. This nonvenomous constrictor is the smallest of 
             the African pythons, growing to a maximum length of 182 cm (72 in).
             </p>
+            <div className='resource-card-container'>
+                <div className='resource-card'>
+                    <img src="/images/banana-bp.jpg" alt="" />
+                </div>
+                <div className='resource-card'>
+                    <img src="/images/ballpython-in-plant.jpg" alt="" />
+                </div>
+                <div className='resource-card'>
+                    <img src="/images/ballpython-scoping.jpg" alt="" />
+                </div>
+                <div className='resource-card'>
+                    <img src="/images/banana-bp.jpg" alt="" />
+                </div>
+            </div>
             {externalData.map((data, index) => (
                 <div key={index} className='ballpython-item'>
                     <h3>{data.name}</h3>

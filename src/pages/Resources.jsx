@@ -12,29 +12,29 @@ const Resources = () => {
             <div className='resource-card-container'>
                 <div className='resource-card'>
                     <img src="/images/banana-bp.jpg" alt="" />
-                    <button className='btn'>Enclosures</button>
+                    <a href='/enclosures'><button className='btn'>Enclosures</button></a>
                 </div>
                 <div className='resource-card'>
                     <img src="/images/ballpython-in-plant.jpg" alt="" />
-                    <button className='btn'>Feeding</button>
+                    <a href='/feeding'><button className='btn'>Feeding</button></a>
                 </div>
                 <div className='resource-card'>
                     <img src="/images/ballpython-scoping.jpg" alt="" />
-                    <button className='btn'>Heating</button>
+                    <a href='/heating'><button className='btn'>Heating</button></a>
                 </div>
                 <div className='resource-card'>
                     <img src="/images/banana-bp.jpg" alt="" />
-                    <button className='btn'>Substrates</button>
+                    <a href='/substrates'><button className='btn'>Substrates</button></a>
                 </div>
                 <div className='resource-card'>
                     <img src="/images/banana-bp.jpg" alt="" />
-                    <button className='btn'>Shedding</button>
+                    <a href='/shedding'><button className='btn'>Shedding</button></a>
                 </div>
                 <div className='resource-card'>
                     <img src="/images/ballpython-in-plant.jpg" alt="" />
-                    <button className='btn'>Breeding</button>
+                    <a href='/breeding'><button className='btn'>Breeding</button></a>
                 </div>
-          </div>
+            </div>
         </div>
     );
 }
