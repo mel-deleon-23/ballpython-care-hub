@@ -51,7 +51,12 @@ const BallPythons = () => {
 
     return (
         <div className='ballpythons-container'>
-            <h2 className='ballpythons-heading'>Ball Pythons</h2>
+            <h3 className='ballpythons-heading'>Ball Pythons</h3>
+            <p className='ballpython-intro-text'>
+            The ball python (Python regius), also called the royal python, is a python species native to West and Central Africa, 
+            where it lives in grasslands, shrublands and open forests. This nonvenomous constrictor is the smallest of 
+            the African pythons, growing to a maximum length of 182 cm (72 in).
+            </p>
             {externalData.map((data, index) => (
                 <div key={index} className='ballpython-item'>
                     <h3>{data.name}</h3>

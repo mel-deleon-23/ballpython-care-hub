@@ -328,6 +328,7 @@
   .about-heading h3{
     font-weight: 700;
     text-align: center;
+    color: #228B22;
     /* padding-top: 100px; */
   }
 
@@ -346,6 +347,7 @@
     font-weight: 700;
     text-align: center;
     padding-top: 100px;
+    color: #228B22;
   }
   
   .resource-card-container {
@@ -398,14 +400,16 @@
   /* Care Guides */
   .care-guide-container {
     position: relative;
-    padding-left: 150px;
-    padding-top: 50px;
+    /* padding-left: 150px;
+    padding-top: 50px; */
+    padding: 264px;
   }
   
   .care-guide-heading h3{
     font-weight: 700;
     text-align: center;
-    padding-top: 50px;
+    /* padding-top: 10px; */
+    color: #228B22;
   }
   
   .care-guide-introduction {
@@ -417,7 +421,7 @@
     align-items: center; */
     color: #36454F;
     font-size: 18px;
-    padding: 0 30px;
+    padding: 10px;
     text-align: center;
   }
   
@@ -426,14 +430,14 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap; 
-    gap: 80px;
+    gap: 50px;
     /* margin-top: 40px; */
-    padding: 50px;
+    padding: 20px;
   }
   
   .care-guide-card {
     position: relative;
-    width: 500px;
+    width: 530px;
     /* To center each card elements */
     display: flex;
     flex-direction: column;
@@ -520,3 +524,60 @@
       color: green;
       font-weight: 700;
   }
+
+
+/* Ball Pythons section */
+.ballpythons-container {
+  position: relative;
+  display: block;
+  padding: 40px;
+}
+
+.ballpythons-heading {
+  padding-bottom: 10px;
+  padding-top: 120px;
+  font-weight: 700;
+  color: #228B22;
+  text-align: center;
+}
+
+.ballpython-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  background-color: #F5DEB3;
+}
+
+.ballpython-item h3 {
+  margin: 0;
+  font-size: 1.2em;
+  flex-basis: 20%;
+}
+
+.ballpython-intro-text {
+  /* display: flex;
+  align-items: center; */
+  color: #36454F;
+  font-size: 18px;
+  padding: 10px 60px;
+  text-align: center;
+}
+
+.ballpython-item p {
+  margin: 0;
+  flex-basis: 15%;
+}
+
+/* Care Guides */
+.contact-heading {
+  padding-bottom: 10px;
+  padding-top: 120px;
+  font-weight: 700;
+  color: #228B22;
+  text-align: center;
+}
+

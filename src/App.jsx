@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/navbar';
@@ -9,6 +9,7 @@ import CareGuides from './pages/CareGuides';
 import Resources from './pages/Resources';
 import BallPythons from './pages/BallPythons';
 import Contact from './pages/Contact';
+import Admin from './pages/Admin';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/resources" element={<Resources />} />
           <Route path="/ballpythons" element={<BallPythons />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/admin" element={<Admin />} />
         </Routes>
         <Footer />
       </div>

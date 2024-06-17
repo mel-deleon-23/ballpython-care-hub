@@ -24,6 +24,7 @@ const Contact = () => {
 
     return (
         <div className='contact-container'>
+            <h3 className='contact-heading'>Contact</h3>
             <form className='contact-form' onSubmit={handleSubmit}>
                 <div className='form-group'>
                     <label htmlFor='name'>Name:</label>
