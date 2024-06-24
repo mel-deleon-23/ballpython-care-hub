@@ -232,7 +232,8 @@
   
   /* HOME */
   .home-container {
-    position: relative;
+    /* position: relative; */
+    background-color: #FFFFF0;
     /* padding: 20px; */
   }
   
@@ -323,6 +324,7 @@
   .about-container {
     position: relative;
     padding: 100px;
+    background-color: #FFFFF0;
   }
   
   .about-heading h3{
@@ -351,6 +353,7 @@
   .resources-container {
     position: relative;
     padding-top: 50px;
+    background-color: #FFFFF0;
   }
   
   .resources-heading h3{
@@ -406,6 +409,29 @@
     background-color: #8FBC8F;
     color: #36454F;
   }
+
+  .breeding-container, .enclosure-container, .feeding-container,
+  .heating-container, .shedding-container, .substrates-container {
+    position: relative;
+    /* margin-left: 150px; */
+    /* padding-top: 50px; */
+    padding: 200px;
+    background-color: #FFFFF0;
+  }
+
+  .breeding-heading, .enclosure-heading, .feeding-heading,
+  .heating-heading, .shedding-heading, .substrates-heading {
+    font-weight: 700;
+    text-align: center;
+    /* padding-top: 10px; */
+    color: #228B22;
+  }
+
+  .breeding-introduction, .enclosure-introduction, .feeding-introduction,
+  .heating-introduction, .shedding-introduction, .substrates-introduction {
+    padding-top: 20px;
+    text-align: center;
+  }
   
   /* Care Guides */
   .care-guide-container {
@@ -413,9 +439,10 @@
     /* padding-left: 150px;
     padding-top: 50px; */
     padding: 264px;
+    background-color: #FFFFF0;
   }
   
-  .care-guide-heading h3{
+  .care-guide-heading {
     font-weight: 700;
     text-align: center;
     /* padding-top: 10px; */
@@ -482,6 +509,48 @@
     color: #36454F;
   }
 
+  /* First time owner */
+  .first-time-owner-container {
+    position: relative;
+    /* margin-left: 150px; */
+    /* padding-top: 50px; */
+    padding: 200px;
+    background-color: #FFFFF0;
+  }
+
+  .first-time-owner-heading {
+    font-weight: 700;
+    text-align: center;
+    /* padding-top: 10px; */
+    color: #228B22;
+  }
+  
+  .first-time-owner-introduction {
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  /* Experienced owner */
+  .experienced-owner-container {
+    position: relative;
+    /* margin-left: 150px; */
+    /* padding-top: 50px; */
+    padding: 200px;
+    background-color: #FFFFF0;
+  }
+
+  .experienced-owner-heading {
+    font-weight: 700;
+    text-align: center;
+    /* padding-top: 10px; */
+    color: #228B22;
+  }
+  
+  .experienced-owner-introduction {
+    padding-top: 20px;
+    text-align: center;
+  }
+
   /* Newletter sign up */
   .email-signup-container {
     text-align: center;
@@ -541,6 +610,7 @@
   position: relative;
   display: block;
   padding: 40px;
+  background-color: #FFFFF0;
 }
 
 .ballpythons-heading {
@@ -582,7 +652,13 @@
   flex-basis: 15%;
 }
 
-/* Care Guides */
+/* Contact */
+.contact-container {
+  background-color: #FFFFF0;
+  padding-top: 50px;
+  /* margin: 100px; */
+}
+
 .contact-heading {
   padding-bottom: 10px;
   padding-top: 120px;
@@ -591,3 +667,6 @@
   text-align: center;
 }
 
+.contact-form {
+  padding: 100px;
+}

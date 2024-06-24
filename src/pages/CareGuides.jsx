@@ -6,8 +6,8 @@ const CareGuides = () => {
     return (
         <div className='care-guide-container'>
             {/* Card Section */}
-            <div className='care-guide-heading'>
-                <h3>Care Guides</h3>
+            <div>
+                <h3 className='care-guide-heading'>Care Guides</h3>
             </div>
             {/* Intro Text */}
             <div className='care-guide-introduction'>

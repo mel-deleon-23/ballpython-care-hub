@@ -13,11 +13,14 @@ import Substrates from './components/Substrates';
 import Enclosures from './components/Enclosures';
 import Feeding from './components/Feeding';
 import Heating from './components/Heating';
-import Breeding from './components/Breeding'
-import Shedding from './components/Shedding'
+import Breeding from './components/Breeding';
+import Shedding from './components/Shedding';
 import BallPythons from './pages/BallPythons';
 import Contact from './pages/Contact';
 import Admin from './pages/Admin';
+import EditContent from './pages/EditContent';
+import PostDetails from './components/PostDetails';
+import CreateContent from './components/CreateContent';
 
 function App() {
   return (
@@ -40,6 +43,9 @@ function App() {
           <Route path="/ballpythons" element={<BallPythons />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/admin" element={<Admin />} />
+          <Route path="/edit/:id" element={<EditContent />} />
+          <Route path="/post/:id" element={<PostDetails />} />
+          <Route path="/create-content" element={<CreateContent />} />
         </Routes>
         <Footer />
       </div>
@@ -47,4 +53,4 @@ function App() {
   );
 }
 
-export default App
+export default App;

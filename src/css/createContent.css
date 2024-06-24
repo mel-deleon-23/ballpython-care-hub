@@ -1,0 +1,63 @@
+.create-content-container {
+    padding-top: 100px;
+    /* margin: 100px; */
+    background-color: #FFFFF0; /* Light background similar to the navbar */
+    /* border-radius: 10px; */
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .create-content-container h2 {
+    text-align: center;
+    color: #228B22;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-top: 100px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    color: #36454F;
+    margin-bottom: 5px;
+  }
+  
+  .form-control, .form-control-file {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .form-control-file {
+    padding: 5px;
+  }
+  
+  .btn-primary {
+    background-color: #228B22;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .btn-primary:hover {
+    background-color: #8FBC8F;
+    color: #36454F;
+  }
+  
+  .quill-editor {
+    height: 300px;
+  }
+  
+  .react-quill {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
