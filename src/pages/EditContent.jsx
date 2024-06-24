@@ -3,6 +3,7 @@ import axios from 'axios';
 import { useNavigate, useParams } from 'react-router-dom';
 import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.snow.css';
+import '../css/createContent.css'; 
 
 const EditContent = () => {
   const { id } = useParams();
@@ -20,7 +21,7 @@ const EditContent = () => {
         setPage(page);
         setTitle(title);
         setContent(content);
-        setImage(image);
+        setImage(image); // Assuming image is the URL or filename
       } catch (error) {
         console.error('Error fetching content:', error);
       }

@@ -59,17 +59,17 @@ const BallPythons = () => {
             </p>
             <div className='resource-card-container'>
                 <div className='resource-card'>
+                    <img src="/images/fidias-cervantes-oHW-2VFNg-Q-unsplash.jpg" alt="" />
+                </div>
+                <div className='resource-card'>
+                    <img src="/images/fidias-cervantes-QwS2TbW0900-unsplash.jpg" alt="" />
+                </div>
+                <div className='resource-card'>
+                    <img src="/images/pexels-pixabay-53140.jpg" alt="" />
+                </div>
+                {/* <div className='resource-card'>
                     <img src="/images/banana-bp.jpg" alt="" />
-                </div>
-                <div className='resource-card'>
-                    <img src="/images/ballpython-in-plant.jpg" alt="" />
-                </div>
-                <div className='resource-card'>
-                    <img src="/images/ballpython-scoping.jpg" alt="" />
-                </div>
-                <div className='resource-card'>
-                    <img src="/images/banana-bp.jpg" alt="" />
-                </div>
+                </div> */}
             </div>
             {externalData.map((data, index) => (
                 <div key={index} className='ballpython-item'>

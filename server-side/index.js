@@ -90,11 +90,17 @@ app.get('/api/content/:page', async (req, res) => {
 });
 
 // Update content
-app.put('/api/content/:id', async (req, res) => {
+app.put('/api/content/:id', upload.single('image'), async (req, res) => {
     const { id } = req.params;
-    const { title, content } = req.body;
+    const { page, title, content } = req.body;
+    const image = req.file ? req.file.filename : req.body.image;
+
     try {
-      const updatedContent = await Content.findByIdAndUpdate(id, { title, content }, { new: true });
+      const updatedContent = await Content.findByIdAndUpdate(
+        id, 
+        { page, title, content, image }, 
+        { new: true }
+      );
       res.json(updatedContent);
     } catch (error) {
       res.status(500).json({ message: error.message });
